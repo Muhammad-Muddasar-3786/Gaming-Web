@@ -1,0 +1,389 @@
+body{
+    background-color: #cc601d;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'lato', 'sans-serif';
+    box-sizing: border-box;
+}
+
+
+header{
+
+}
+
+#navbar{
+    margin: 0 auto;
+    width: 80%;
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo-container{
+    display: flex;
+    align-items: center;
+    
+}
+#logo-container > h2 {
+    margin-left: 0px;
+      
+}
+#logo-container img {
+    width: 80px;
+height: 80px;
+}
+#nav-items{
+    display: flex;
+    width: 500px;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+
+}
+#nav-items >li{
+    cursor: pointer;
+}
+#main-header{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+
+}
+
+#main-header .left{
+    
+    width:50%;
+    top: 100% ;
+    left: 10%;
+    height: 100px;
+   
+}
+.btn-btn{
+    cursor: pointer;
+}
+
+#main-header .left .big-text{
+    font-size: 60px;
+color: #fff;
+margin: 50px;
+}
+
+
+#main-header .left #overview{
+    display: flex;
+    
+    justify-content: flex-start;
+    margin: 40px;
+    gap: 15px;
+}
+
+#main-header .left #overview .overview-items{
+
+
+    
+    display: flex;
+ 
+    text-align: center;
+
+
+}
+
+.gradient-text{
+    color: #fecc34;
+}
+
+
+#main-header .left p{
+   
+    color: #fff;
+    margin: 5%;
+    letter-spacing: 2px;
+    font-size: 18px ;
+}
+
+
+
+#main-header .left #overview .overview-item h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 3px;
+}
+
+#main-header .right{
+    width: 100%;
+    height: 100%;
+    z-index: -10;
+    /* mix-blend-mode: color-dodge; */
+
+
+}
+#main-header .right img{
+     
+      width: 80%;
+    height: 135vh;
+    margin-top: -3vh;
+    float: right;
+    clear: both;
+
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.btn{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 0px;
+    transform: skewX(-20deg);
+    cursor: pointer;
+    background-color: transparent;
+    color: #dcc3c3;
+    text
+
+
+}
+.btn-btn{
+    background: yellow;
+    background: linear-gradient(45deg, yellow 35% , red, black);
+    padding: 10px;
+    margin: 0px;
+    transform: skewX(-20deg);
+}
+.band{
+   
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    margin: auto;
+    background: #c25454;
+    box-shadow: 0 80px 32px 0 rgb(0, 0, 0);
+    backdrop-filter: (40x transparent);
+    border: 1px;
+align-items: center;
+padding: 15px 10px;
+transform: rotate(-4deg);}
+
+
+.choose-section{
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+   color: #fff;
+   padding: 0;
+   margin: 0;
+   text-align: center;
+
+    
+}
+
+.c-s-t{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.choose-section .section-discription{
+    align-items: center;
+    width: 500px;
+    font-size: 19px;
+
+}
+.choose-section .many-images{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+
+}
+
+.choose-section .many-images .center-image{
+    width: 400px;
+    height:400px;
+}
+.discover-section{
+    width: 70%;
+    margin:100px auto;
+    
+
+}
+
+.discover-card{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    background: #f16d21;
+    backdrop-filter: blur(1px) !important;
+}
+.discover-card img{
+    margin-top: -70px;
+    width: 50%;
+    backdrop-filter: blur(100%) !important;
+
+
+    align-self: flex-start;
+}
+.discover-card .d-c-d{
+    margin-left: 80px;
+}
+ .d-c-d .big-text{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 0;
+ }
+ .d-c-d .btn{
+    width: fit-content;
+    border: 1px solid #c25454;
+    padding: 10px 20px;
+
+    }
+   
+ .d-c-d-section{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+    flex-direction: column;
+ }
+ .d-c-d-section .many-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    margin: 20px;
+    
+
+ }
+
+
+ .d-c-d-section .demo-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+ }
+.demo-card{
+display: flex;
+align-items: center;
+gap: 15px;
+width: 300px;
+flex-direction: column;
+
+padding: 10px 15px;
+
+
+
+}
+
+.demo-card > img{
+    width: 100%;
+}
+.demo-card-detailsa >img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    
+}
+
+.demo-card >h5{
+    margin: 0;
+    align-self: self-start;
+    font-size: 20px;
+    
+}
+.demo-card .demo-card-detailsa{
+    display: flex;
+    gap: 7px;
+    align-self: self-start;
+}
+.demo-card h5 ,
+ .demo-card p {
+    margin: 0;
+}
+.demo-game-btn{
+    display: block;
+    cursor: pointer;
+    padding: 1px 0;
+   width: 100%;
+   margin: 10px 0;
+   
+   text-align: center;
+   transform: skew(-20deg);
+   border: 1px solid #cc601d;
+   background: yellow;
+   background: linear-gradient(45deg, yellow 35% , red, black);
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 100 10 0 10;
+    position: relative;
+
+}
+.footer .all-brands{
+    display: flex;
+    gap: 30px;
+
+}
+.footer .about-and-links {
+    display: flex;
+    justify-content:space-between ;
+    margin: 60px;
+    
+    
+
+}
+.footer .about-and-links .logo-conatin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo-conatin > h2{
+    margin: 0px;
+}
+
+.footer .about-and-links .help{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .about-and-links .company{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .about-and-links .resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer .all-brands{
+    display: flex;
+    justify-content: space-between;
+    margin: 60px;
+   
+   
+}
+.footer .copywrite{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+ 
+
